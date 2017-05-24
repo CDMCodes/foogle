@@ -58,6 +58,43 @@ body {
 
 .related {
   /*border: 2px solid grey;*/
+  /*text-align:left;*/
+  /*clear: both;*/
+}
+
+.rel_left {
+  /*float: left;*/
+  display: inline-block;
+  /*border: 2px solid black;*/
+}
+
+.rel_right{
+  /*float: left;*/
+  display: inline-block;
+  /*border: 2px solid black;*/
+}
+
+
+.related ul {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.related li {
+  display:list-item;
+  text-align: left;
+  padding: 2px;
+  margin: 0;
+  color: blue;
+}
+
+.related a{
+    color: blue;
+}
+
+.related div{
+  clear: both;
 }
 
 .ads_panel {
@@ -73,8 +110,6 @@ body {
   border: 1px solid lightgrey;
   margin: 5px;
 }
-
-
 
 a {
   text-decoration: none;
@@ -93,6 +128,15 @@ a:hover {
   margin: auto;
   font-size: 9pt;
   padding: 5px 40px;
+}
+
+.spacer {
+  height:50px;
+  width: 100%;
+  margin: auto;
+  padding: 0;
+  /*border: 5px solid blue;*/
+  clear: both;
 }
 
 ul {
